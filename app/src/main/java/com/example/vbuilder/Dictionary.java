@@ -24,6 +24,8 @@ public class Dictionary {
     private void initDictionaryEntries(Context context) {
         dictionaryEntries = new ArrayList<>();
 
+        // https://o7planning.org/en/10459/android-json-parser-tutorial
+        // https://stackoverflow.com/questions/18192891/conversion-from-string-to-json-object-android
         try {
             // Read content of dictionary_entries.json
             String jsonText = readText(context, R.raw.dictionary_entries);
