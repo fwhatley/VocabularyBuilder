@@ -1,4 +1,4 @@
-package com.example.vbuilder;
+package com.whatley.vbuilder;
 
 import android.content.Context;
 import android.util.Log;

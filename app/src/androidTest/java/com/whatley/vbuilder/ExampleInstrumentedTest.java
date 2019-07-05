@@ -1,4 +1,4 @@
-package com.example.vbuilder;
+package com.whatley.vbuilder;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.vbuilder", appContext.getPackageName());
+        assertEquals("com.whatley.vbuilder", appContext.getPackageName());
     }
 }
